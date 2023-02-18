@@ -42,9 +42,9 @@ int findPeakElement(int arr[], int n){
 
 int main(){
 
-    int arr[] = {20, 10, 15, 13, 30, 5 , 23};
+    int arr[] = {5,6,8,9,23,90,67};
 
-    int index = findPeakElement(arr, 4);
+    int index = findPeakElement(arr, 7);
     cout<<index<<endl;
     cout<<arr[index];
     return 0;

@@ -3,10 +3,10 @@ using namespace std;
 
 class node
 {
-public:
     int data;
     node* next;
-
+    
+public:
 node(int val){
     data = val;
     next = NULL;
